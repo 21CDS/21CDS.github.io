@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="code," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,18 +79,17 @@
 
 
 
-<meta name="description" content="Only For DataScience">
-<meta name="keywords" content="code">
+<meta name="description" content="1234567drop table if exists modeling_db.zq_model_res01_sample_repay_date;create table  modeling_db.zq_model_res01_sample_repay_date asselect to_date(apply_time) obs_datefrom mysql.loan_consumer_applic">
 <meta property="og:type" content="article">
-<meta property="og:title" content="R语言|1.11 软件安装2">
-<meta property="og:url" content="http://yoursite.com/2018/02/04/R语言-1-11-软件安装2/index.html">
+<meta property="og:title" content="SQL|1.1 Introduction">
+<meta property="og:url" content="http://yoursite.com/2018/02/05/SQL-1-1-Introduction/index.html">
 <meta property="og:site_name" content="21世纪数据科学">
-<meta property="og:description" content="Only For DataScience">
+<meta property="og:description" content="1234567drop table if exists modeling_db.zq_model_res01_sample_repay_date;create table  modeling_db.zq_model_res01_sample_repay_date asselect to_date(apply_time) obs_datefrom mysql.loan_consumer_applic">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-04T06:40:26.398Z">
+<meta property="og:updated_time" content="2018-02-05T06:06:26.251Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="R语言|1.11 软件安装2">
-<meta name="twitter:description" content="Only For DataScience">
+<meta name="twitter:title" content="SQL|1.1 Introduction">
+<meta name="twitter:description" content="1234567drop table if exists modeling_db.zq_model_res01_sample_repay_date;create table  modeling_db.zq_model_res01_sample_repay_date asselect to_date(apply_time) obs_datefrom mysql.loan_consumer_applic">
 
 
 
@@ -120,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/02/04/R语言-1-11-软件安装2/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/02/05/SQL-1-1-Introduction/"/>
 
 
 
 
 
-  <title>R语言|1.11 软件安装2 | 21世纪数据科学</title>
+  <title>SQL|1.1 Introduction | 21世纪数据科学</title>
   
 
 
@@ -284,7 +283,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/04/R语言-1-11-软件安装2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/05/SQL-1-1-Introduction/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr. Zhang">
@@ -301,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">R语言|1.11 软件安装2</h1>
+          <h1 class="post-title" itemprop="name headline">SQL|1.1 Introduction</h1>
         
 
         <div class="post-meta">
@@ -313,8 +312,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-04T14:35:08+08:00">
-                2018-02-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-05T14:05:52+08:00">
+                2018-02-05
               </time>
             
 
@@ -336,8 +335,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/R/" itemprop="url" rel="index">
-                    <span itemprop="name">R</span>
+                  <a href="/categories/SQL/" itemprop="url" rel="index">
+                    <span itemprop="name">SQL</span>
                   </a>
                 </span>
 
@@ -373,7 +372,8 @@
       
 
       
-        
+        <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">drop</span> <span class="keyword">table</span> <span class="keyword">if</span> <span class="keyword">exists</span> modeling_db.zq_model_res01_sample_repay_date;</span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span>  modeling_db.zq_model_res01_sample_repay_date <span class="keyword">as</span></span><br><span class="line"><span class="keyword">select</span> <span class="keyword">to_date</span>(apply_time) obs_date</span><br><span class="line"><span class="keyword">from</span> mysql.loan_consumer_application</span><br><span class="line"><span class="keyword">where</span> apply_time <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">null</span></span><br><span class="line"><span class="keyword">group</span> <span class="keyword">by</span> <span class="keyword">to_date</span>(apply_time)</span><br><span class="line"><span class="keyword">order</span> <span class="keyword">by</span> obs_date</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -408,12 +408,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/code/" rel="tag"># code</a>
-          
-        </div>
-      
 
       
       
@@ -423,8 +417,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/03/R语言-1-1-软件安装1/" rel="next" title="R语言|1.1 软件安装1">
-                <i class="fa fa-chevron-left"></i> R语言|1.1 软件安装1
+              <a href="/2018/02/04/R语言-1-11-软件安装2/" rel="next" title="R语言|1.11 软件安装2">
+                <i class="fa fa-chevron-left"></i> R语言|1.11 软件安装2
               </a>
             
           </div>
@@ -433,8 +427,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/02/05/SQL-1-1-Introduction/" rel="prev" title="SQL|1.1 Introduction">
-                SQL|1.1 Introduction <i class="fa fa-chevron-right"></i>
+              <a href="/2018/02/06/R语言-2-2-软件安装3/" rel="prev" title="R语言|2.2 软件安装3">
+                R语言|2.2 软件安装3 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
