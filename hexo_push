@@ -1,0 +1,4 @@
+#!/bin/bash
+hexo clean  # 删除原来的静态页面
+hexo g  # generate 生成新的静态页面
+hexo d  # deploy 将页面部署到 GitHub 上
